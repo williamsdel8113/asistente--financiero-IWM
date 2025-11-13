@@ -1,6 +1,3 @@
-Aquí tienes el código completo en español para tu asistente financiero automatizado de IWM, listo para usar en Streamlit Cloud. Solo copia y pega este contenido en un archivo llamado app.py.
-
-🧾 Código: app.py
 import streamlit as st
 import pandas as pd
 import requests
@@ -79,13 +76,3 @@ st.dataframe(df, use_container_width=True)
 # Mostrar precios
 st.markdown(f"**Precio actual de IWM:** ${precio:.2f}")
 st.markdown(f"**BID:** ${bid:.2f} | **ASK:** ${ask:.2f}")
-
-
-
-🧭 Instrucciones para usarlo
-- Ve a Streamlit Cloud y crea una cuenta gratuita.
-- Crea una nueva app y sube el archivo app.py.
-- Reemplaza "TU_API_KEY_AQUÍ" con tu clave de Alpha Vantage.
-- Haz clic en "Deploy" y tu asistente estará en línea.
-
-¿Quieres que te prepare también el archivo .py para descargar directamente? ¿O que lo extienda con más indicadores como RSI, MACD o alertas por email?
